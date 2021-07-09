@@ -1,0 +1,24 @@
+{
+  "name": "ms_teams",
+  "version": "1.0.0",
+  "description": "A video conferencing web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshitagrawal294/Engage-Teams.git"
+  },
+  "author": "Harshit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshitagrawal294/Engage-Teams/issues"
+  },
+  "homepage": "https://github.com/harshitagrawal294/Engage-Teams#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "socket.io": "^1.2.0"
+  }
+}
