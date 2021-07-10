@@ -138,8 +138,11 @@ bootbox.prompt({
         }
       }
       
+      // close connection on reload
       window.onbeforeunload = function() {
-        sendMessage('bye', room);
+        if(isChannelReady){
+          sendMessage('bye', room);
+        }
       };
       
       function createPeerConnection() {
