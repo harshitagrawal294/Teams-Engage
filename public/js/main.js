@@ -202,7 +202,7 @@ bootbox.prompt({
         remoteStream = event.stream;
         remoteVideo.srcObject = remoteStream;
         if(isInitiator){
-          bootbox.alert("Particiapant has joined the conference");
+          bootbox.alert("Participant has joined the conference");
         }
       }
       
